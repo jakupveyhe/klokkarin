@@ -4710,7 +4710,7 @@ const lk=document.querySelectorAll('.nv a'), sc=document.querySelectorAll('.ms')
 const obs=new IntersectionObserver(es=>{es.forEach(e=>{
  if(e.isIntersecting){
  lk.forEach(l=>l.classList.remove('act'));
- const a=document.querySelector(`.nv ahref="#${e.target.id}"`);
+ const a=document.querySelector(`.nv a[href="#${e.target.id}"]`);
  if(a&&a.offsetParent!==null){a.classList.add('act');a.scrollIntoView({block:'nearest',behavior:'smooth'});}
  }
 });},{threshold:.08,rootMargin:'-8% 0px -72% 0px'});
