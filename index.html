@@ -210,6 +210,12 @@ h2.sh {
     .main { margin-left:0; padding:14px; max-width:100%; }
 }
 
+
+.nv a .note-star {
+    font-size:9px; color:#e67e22; margin-left:2px; display:none;
+}
+.nv a .note-star.show { display:inline; }
+
 /* Notes system */
 .note-toggle {
     font-size:9px; color:#999; text-decoration:none; font-style:normal;
@@ -270,18 +276,18 @@ h2.sh {
         <button class="fb fc" data-c="clopin" onclick="fltChar(this)">Clopin</button> <button class="fb fc" data-c="drykkjubrøður" onclick="fltChar(this)">Drykkjubrøður</button> <button class="fb fc" data-c="esmeralda" onclick="fltChar(this)">Esmeralda</button> <button class="fb fc" data-c="florika" onclick="fltChar(this)">Florika</button> <button class="fb fc" data-c="frederic" onclick="fltChar(this)">Frederic</button> <button class="fb fc" data-c="frollo" onclick="fltChar(this)">Frollo</button> <button class="fb fc" data-c="gosgrýlur" onclick="fltChar(this)">Gosgrýlur</button> <button class="fb fc" data-c="phoebus" onclick="fltChar(this)">Phoebus</button> <button class="fb fc" data-c="quasimodo" onclick="fltChar(this)">Quasimodo</button> <button class="fb fc" data-c="sigoynarar" onclick="fltChar(this)">Sigoynarar</button> <button class="fb fc" data-c="standmyndir" onclick="fltChar(this)">Standmyndir</button> 
     </div>
     <div class="sx"><input type="text" placeholder="Leita…" oninput="srch(this.value)"></div>
-    <div class="nv" id="nv"><a href="#s0" class="n-part" data-lv="part" data-chars=""><span class="pg">1</span><span class="nav-label">FYRRI PARTUR</span></a><a href="#s1" class="n-scene" data-lv="scene" data-chars=""><span class="pg">2</span><span class="nav-label">PROLÓGUR: TÓMUR PALLUR</span></a><a href="#s2" class="n-song" data-lv="song" data-chars="meinigheit/kór"><span class="pg">3</span><span class="nav-label">♪ #1 — Olim</span></a><a href="#s3" class="n-song" data-lv="song" data-chars="clopin,frollo,meinigheit/kór"><span class="pg">4</span><span class="nav-label">♪ #2 — The Bells of Notre Dame (Part 1)</span></a><a href="#s4" class="n-song" data-lv="song" data-chars="clopin,frollo,meinigheit/kór,quasimodo"><span class="pg">5</span><span class="nav-label">♪ #2E — The Bells of Notre Dame (Part 6)</span></a><a href="#s5" class="n-scene" data-lv="scene" data-chars="frollo,gosgrýlur,meinigheit/kór,quasimodo,standmyndir"><span class="pg">6</span><span class="nav-label">PALLMYND 1.1: KLOKKUTORNIÐ</span></a><a href="#s6" class="n-song" data-lv="song" data-chars="quasimodo"><span class="pg">7</span><span class="nav-label">♪ #4 — Out There</span></a><a href="#s7" class="n-scene" data-lv="scene" data-chars=""><span class="pg">8</span><span class="nav-label">PALLMYND 2.1: BÝARTORGIÐ</span></a><a href="#s8" class="n-song" data-lv="song" data-chars="clopin,drykkjubrøður,meinigheit/kór,phoebus,prestar,quasimodo,sigoynarar"><span class="pg">9</span><span class="nav-label">♪ #5 — Topsy Turvy (Part 1)</span></a><a href="#s9" class="n-song" data-lv="song" data-chars="clopin,drykkjubrøður,esmeralda,frederic,frollo,meinigheit/kór,phoebus,sigoynarar"><span class="pg">10</span><span class="nav-label">♪ #6 — Rest and Recreation</span></a><a href="#s10" class="n-song" data-lv="song" data-chars="clopin,esmeralda,sigoynarar"><span class="pg">11</span><span class="nav-label">♪ #7 — Rhythm of the Tambourine</span></a><a href="#s11" class="n-song" data-lv="song" data-chars="clopin,drykkjubrøður,esmeralda,meinigheit/kór"><span class="pg">12</span><span class="nav-label">♪ #8 — Topsy Turvy (Part 2)</span></a><a href="#s12" class="n-song" data-lv="song" data-chars="clopin,drykkjubrøður,esmeralda,frollo,meinigheit/kór,phoebus,quasimodo"><span class="pg">13</span><span class="nav-label">♪ #8A — The Harrowing</span></a><a href="#s13" class="n-song" data-lv="song" data-chars="frollo,quasimodo"><span class="pg">14</span><span class="nav-label">♪ #9 — Sanctuary II</span></a><a href="#s14" class="n-scene" data-lv="scene" data-chars=""><span class="pg">15</span><span class="nav-label">PALLMYND 3.1: INNI Í KIRKJUNI</span></a><a href="#s15" class="n-song" data-lv="song" data-chars="esmeralda,frollo,meinigheit/kór"><span class="pg">16</span><span class="nav-label">♪ #9A — Klokkurnar í Notre Dame (Reprise)</span></a><a href="#s16" class="n-song" data-lv="song" data-chars="esmeralda,frollo,meinigheit/kór,phoebus"><span class="pg">17</span><span class="nav-label">♪ #10 — God Help The Outcasts</span></a><a href="#s17" class="n-song" data-lv="song" data-chars="esmeralda,phoebus"><span class="pg">18</span><span class="nav-label">♪ #11 — Transition to the Bell Tower</span></a><a href="#s18" class="n-scene" data-lv="scene" data-chars="esmeralda,gosgrýlur,quasimodo,standmyndir"><span class="pg">19</span><span class="nav-label">PALLMYND 4.1: KIRKJUTORNIÐ</span></a><a href="#s21" class="n-song" data-lv="song" data-chars="esmeralda,frollo,meinigheit/kór,phoebus,quasimodo"><span class="pg">20</span><span class="nav-label">♪ #12A — How Dare You</span></a><a href="#s22" class="n-scene" data-lv="scene" data-chars="clopin,esmeralda,frollo,meinigheit/kór,phoebus,sigoynarar"><span class="pg">21</span><span class="nav-label">PALLMYND 5.1: VERTSHÚS</span></a><a href="#s23" class="n-scene" data-lv="scene" data-chars="gosgrýlur,quasimodo,standmyndir"><span class="pg">22</span><span class="nav-label">PALLMYND 6.1: KLOKKUTORNIÐ</span></a><a href="#s24" class="n-song" data-lv="song" data-chars="gosgrýlur,quasimodo"><span class="pg">23</span><span class="nav-label">♪ #14 — Heaven's Light</span></a><a href="#s25" class="n-scene" data-lv="scene" data-chars=""><span class="pg">24</span><span class="nav-label">PALLMYND 7.1: BØNARSTÓLAR</span></a><a href="#s26" class="n-song" data-lv="song" data-chars="frollo,meinigheit/kór,prestar"><span class="pg">25</span><span class="nav-label">♪ #15 — Hellfire</span></a><a href="#s27" class="n-part" data-lv="part" data-chars=""><span class="pg">26</span><span class="nav-label">SEINNI PARTUR</span></a><a href="#s28" class="n-song" data-lv="song" data-chars="meinigheit/kór"><span class="pg">27</span><span class="nav-label">♪ #17 — Entr'acte</span></a><a href="#s29" class="n-scene" data-lv="scene" data-chars="frederic,frollo,hermenn,meinigheit/kór,phoebus"><span class="pg">28</span><span class="nav-label">PALLMYND 0.2: GØTUR Í PARÍS</span></a><a href="#s30" class="n-song" data-lv="song" data-chars="clopin,esmeralda,frollo,hermenn,meinigheit/kór,phoebus,quasimodo"><span class="pg">29</span><span class="nav-label">♪ #16A — Esmeralda / Act I Finale (Part 2)</span></a><a href="#s31" class="n-scene" data-lv="scene" data-chars=""><span class="pg">30</span><span class="nav-label">PALLMYND 1.2: KLOKKUTORNIÐ</span></a><a href="#s32" class="n-song" data-lv="song" data-chars="esmeralda,frollo,meinigheit/kór,phoebus,quasimodo,sigoynarar"><span class="pg">31</span><span class="nav-label">♪ #17A — Agnus Dei</span></a><a href="#s33" class="n-song" data-lv="song" data-chars="esmeralda,frederic,frollo,meinigheit/kór,quasimodo,standmyndir"><span class="pg">32</span><span class="nav-label">♪ #18ª — Esmeralda Reprise</span></a><a href="#s34" class="n-scene" data-lv="scene" data-chars="meinigheit/kór"><span class="pg">33</span><span class="nav-label">PALLMYND 2.2: GØTURNAR Í PARÍS</span></a><a href="#s35" class="n-song" data-lv="song" data-chars="clopin,phoebus,quasimodo,sigoynarar"><span class="pg">34</span><span class="nav-label">♪ #20 — Undrannargarður</span></a><a href="#s36" class="n-scene" data-lv="scene" data-chars="clopin,esmeralda,phoebus,quasimodo,sigoynarar"><span class="pg">35</span><span class="nav-label">PALLMYND 3.2: UNDRANNAGARÐUR</span></a><a href="#s37" class="n-song" data-lv="song" data-chars="clopin,esmeralda,frollo,meinigheit/kór,phoebus,quasimodo,sigoynarar"><span class="pg">36</span><span class="nav-label">♪ #21 — In a Place of Miracles</span></a><a href="#s38" class="n-song" data-lv="song" data-chars="frollo"><span class="pg">37</span><span class="nav-label">♪ #22 — The Bells of Notre Dame (Reprise II)</span></a><a href="#s39" class="n-scene" data-lv="scene" data-chars="esmeralda,frollo,meinigheit/kór"><span class="pg">38</span><span class="nav-label">PALLMYND 4.2: FONGLSIÐ</span></a><a href="#s40" class="n-song" data-lv="song" data-chars="esmeralda,frederic,frollo,phoebus"><span class="pg">39</span><span class="nav-label">♪ #23 — The Assault</span></a><a href="#s41" class="n-song" data-lv="song" data-chars="esmeralda,phoebus"><span class="pg">40</span><span class="nav-label">♪ #24 — Someday</span></a><a href="#s42" class="n-scene" data-lv="scene" data-chars=""><span class="pg">41</span><span class="nav-label">PALLMYND 5.2: KLOKKUTORNIÐ</span></a><a href="#s43" class="n-song" data-lv="song" data-chars="gosgrýlur,meinigheit/kór,quasimodo,standmyndir"><span class="pg">42</span><span class="nav-label">♪ #24A — While the City Slumbered</span></a><a href="#s44" class="n-song" data-lv="song" data-chars="gosgrýlur,quasimodo,standmyndir"><span class="pg">43</span><span class="nav-label">♪ #25 — Made of Stone</span></a><a href="#s45" class="n-scene" data-lv="scene" data-chars=""><span class="pg">44</span><span class="nav-label">PALLMYND 6.2: BÝARTORGIÐ / NOTRE DAME</span></a><a href="#s46" class="n-song" data-lv="song" data-chars="frollo,meinigheit/kór"><span class="pg">45</span><span class="nav-label">♪ #25A — Judex Crederis</span></a><a href="#s47" class="n-song" data-lv="song" data-chars="clopin,frederic,frollo,gosgrýlur,hermenn,meinigheit/kór,phoebus,quasimodo,standmyndir"><span class="pg">46</span><span class="nav-label">♪ #25B — Kyrie Eleison Company</span></a><a href="#s48" class="n-scene" data-lv="scene" data-chars=""><span class="pg">47</span><span class="nav-label">PALLMYND 7.2: KLOKKUTORN</span></a><a href="#s49" class="n-song" data-lv="song" data-chars="esmeralda,frollo,quasimodo"><span class="pg">48</span><span class="nav-label">♪ #25C — Top of the World (Reprise)</span></a><a href="#s50" class="n-song" data-lv="song" data-chars="frollo,gosgrýlur,meinigheit/kór,quasimodo,standmyndir"><span class="pg">49</span><span class="nav-label">♪ #25D — Esmeralda (Frollo Reprise)</span></a><a href="#s51" class="n-song" data-lv="song" data-chars="clopin,florika,meinigheit/kór,phoebus,quasimodo"><span class="pg">50</span><span class="nav-label">♪ #26 — Finale Ultimo</span></a></div>
+    <div class="nv" id="nv"><a href="#s0" class="n-part" data-lv="part" data-chars=""><span class="pg">1</span><span class="nav-label">FYRRI PARTUR<span class="note-star">★</span></span></a><a href="#s1" class="n-scene" data-lv="scene" data-chars=""><span class="pg">2</span><span class="nav-label">PROLÓGUR: TÓMUR PALLUR<span class="note-star">★</span></span></a><a href="#s2" class="n-song" data-lv="song" data-chars="meinigheit/kór"><span class="pg">3</span><span class="nav-label">♪ #1 — Olim<span class="note-star">★</span></span></a><a href="#s3" class="n-song" data-lv="song" data-chars="clopin,frollo,meinigheit/kór"><span class="pg">4</span><span class="nav-label">♪ #2 — The Bells of Notre Dame (Part 1)<span class="note-star">★</span></span></a><a href="#s4" class="n-song" data-lv="song" data-chars="clopin,frollo,meinigheit/kór,quasimodo"><span class="pg">5</span><span class="nav-label">♪ #2E — The Bells of Notre Dame (Part 6)<span class="note-star">★</span></span></a><a href="#s5" class="n-scene" data-lv="scene" data-chars="frollo,gosgrýlur,meinigheit/kór,quasimodo,standmyndir"><span class="pg">6</span><span class="nav-label">PALLMYND 1.1: KLOKKUTORNIÐ<span class="note-star">★</span></span></a><a href="#s6" class="n-song" data-lv="song" data-chars="quasimodo"><span class="pg">7</span><span class="nav-label">♪ #4 — Out There<span class="note-star">★</span></span></a><a href="#s7" class="n-scene" data-lv="scene" data-chars=""><span class="pg">8</span><span class="nav-label">PALLMYND 2.1: BÝARTORGIÐ<span class="note-star">★</span></span></a><a href="#s8" class="n-song" data-lv="song" data-chars="clopin,drykkjubrøður,meinigheit/kór,phoebus,prestar,quasimodo,sigoynarar"><span class="pg">9</span><span class="nav-label">♪ #5 — Topsy Turvy (Part 1)<span class="note-star">★</span></span></a><a href="#s9" class="n-song" data-lv="song" data-chars="clopin,drykkjubrøður,esmeralda,frederic,frollo,meinigheit/kór,phoebus,sigoynarar"><span class="pg">10</span><span class="nav-label">♪ #6 — Rest and Recreation<span class="note-star">★</span></span></a><a href="#s10" class="n-song" data-lv="song" data-chars="clopin,esmeralda,sigoynarar"><span class="pg">11</span><span class="nav-label">♪ #7 — Rhythm of the Tambourine<span class="note-star">★</span></span></a><a href="#s11" class="n-song" data-lv="song" data-chars="clopin,drykkjubrøður,esmeralda,meinigheit/kór"><span class="pg">12</span><span class="nav-label">♪ #8 — Topsy Turvy (Part 2)<span class="note-star">★</span></span></a><a href="#s12" class="n-song" data-lv="song" data-chars="clopin,drykkjubrøður,esmeralda,frollo,meinigheit/kór,phoebus,quasimodo"><span class="pg">13</span><span class="nav-label">♪ #8A — The Harrowing<span class="note-star">★</span></span></a><a href="#s13" class="n-song" data-lv="song" data-chars="frollo,quasimodo"><span class="pg">14</span><span class="nav-label">♪ #9 — Sanctuary II<span class="note-star">★</span></span></a><a href="#s14" class="n-scene" data-lv="scene" data-chars=""><span class="pg">15</span><span class="nav-label">PALLMYND 3.1: INNI Í KIRKJUNI<span class="note-star">★</span></span></a><a href="#s15" class="n-song" data-lv="song" data-chars="esmeralda,frollo,meinigheit/kór"><span class="pg">16</span><span class="nav-label">♪ #9A — Klokkurnar í Notre Dame (Reprise)<span class="note-star">★</span></span></a><a href="#s16" class="n-song" data-lv="song" data-chars="esmeralda,frollo,meinigheit/kór,phoebus"><span class="pg">17</span><span class="nav-label">♪ #10 — God Help The Outcasts<span class="note-star">★</span></span></a><a href="#s17" class="n-song" data-lv="song" data-chars="esmeralda,phoebus"><span class="pg">18</span><span class="nav-label">♪ #11 — Transition to the Bell Tower<span class="note-star">★</span></span></a><a href="#s18" class="n-scene" data-lv="scene" data-chars="esmeralda,gosgrýlur,quasimodo,standmyndir"><span class="pg">19</span><span class="nav-label">PALLMYND 4.1: KIRKJUTORNIÐ<span class="note-star">★</span></span></a><a href="#s21" class="n-song" data-lv="song" data-chars="esmeralda,frollo,meinigheit/kór,phoebus,quasimodo"><span class="pg">20</span><span class="nav-label">♪ #12A — How Dare You<span class="note-star">★</span></span></a><a href="#s22" class="n-scene" data-lv="scene" data-chars="clopin,esmeralda,frollo,meinigheit/kór,phoebus,sigoynarar"><span class="pg">21</span><span class="nav-label">PALLMYND 5.1: VERTSHÚS<span class="note-star">★</span></span></a><a href="#s23" class="n-scene" data-lv="scene" data-chars="gosgrýlur,quasimodo,standmyndir"><span class="pg">22</span><span class="nav-label">PALLMYND 6.1: KLOKKUTORNIÐ<span class="note-star">★</span></span></a><a href="#s24" class="n-song" data-lv="song" data-chars="gosgrýlur,quasimodo"><span class="pg">23</span><span class="nav-label">♪ #14 — Heaven's Light<span class="note-star">★</span></span></a><a href="#s25" class="n-scene" data-lv="scene" data-chars=""><span class="pg">24</span><span class="nav-label">PALLMYND 7.1: BØNARSTÓLAR<span class="note-star">★</span></span></a><a href="#s26" class="n-song" data-lv="song" data-chars="frollo,meinigheit/kór,prestar"><span class="pg">25</span><span class="nav-label">♪ #15 — Hellfire<span class="note-star">★</span></span></a><a href="#s27" class="n-part" data-lv="part" data-chars=""><span class="pg">26</span><span class="nav-label">SEINNI PARTUR<span class="note-star">★</span></span></a><a href="#s28" class="n-song" data-lv="song" data-chars="meinigheit/kór"><span class="pg">27</span><span class="nav-label">♪ #17 — Entr'acte<span class="note-star">★</span></span></a><a href="#s29" class="n-scene" data-lv="scene" data-chars="frederic,frollo,hermenn,meinigheit/kór,phoebus"><span class="pg">28</span><span class="nav-label">PALLMYND 0.2: GØTUR Í PARÍS<span class="note-star">★</span></span></a><a href="#s30" class="n-song" data-lv="song" data-chars="clopin,esmeralda,frollo,hermenn,meinigheit/kór,phoebus,quasimodo"><span class="pg">29</span><span class="nav-label">♪ #16A — Esmeralda / Act I Finale (Part 2)<span class="note-star">★</span></span></a><a href="#s31" class="n-scene" data-lv="scene" data-chars=""><span class="pg">30</span><span class="nav-label">PALLMYND 1.2: KLOKKUTORNIÐ<span class="note-star">★</span></span></a><a href="#s32" class="n-song" data-lv="song" data-chars="esmeralda,frollo,meinigheit/kór,phoebus,quasimodo,sigoynarar"><span class="pg">31</span><span class="nav-label">♪ #17A — Agnus Dei<span class="note-star">★</span></span></a><a href="#s33" class="n-song" data-lv="song" data-chars="esmeralda,frederic,frollo,meinigheit/kór,quasimodo,standmyndir"><span class="pg">32</span><span class="nav-label">♪ #18ª — Esmeralda Reprise<span class="note-star">★</span></span></a><a href="#s34" class="n-scene" data-lv="scene" data-chars="meinigheit/kór"><span class="pg">33</span><span class="nav-label">PALLMYND 2.2: GØTURNAR Í PARÍS<span class="note-star">★</span></span></a><a href="#s35" class="n-song" data-lv="song" data-chars="clopin,phoebus,quasimodo,sigoynarar"><span class="pg">34</span><span class="nav-label">♪ #20 — Undrannargarður<span class="note-star">★</span></span></a><a href="#s36" class="n-scene" data-lv="scene" data-chars="clopin,esmeralda,phoebus,quasimodo,sigoynarar"><span class="pg">35</span><span class="nav-label">PALLMYND 3.2: UNDRANNAGARÐUR<span class="note-star">★</span></span></a><a href="#s37" class="n-song" data-lv="song" data-chars="clopin,esmeralda,frollo,meinigheit/kór,phoebus,quasimodo,sigoynarar"><span class="pg">36</span><span class="nav-label">♪ #21 — In a Place of Miracles<span class="note-star">★</span></span></a><a href="#s38" class="n-song" data-lv="song" data-chars="frollo"><span class="pg">37</span><span class="nav-label">♪ #22 — The Bells of Notre Dame (Reprise II)<span class="note-star">★</span></span></a><a href="#s39" class="n-scene" data-lv="scene" data-chars="esmeralda,frollo,meinigheit/kór"><span class="pg">38</span><span class="nav-label">PALLMYND 4.2: FONGLSIÐ<span class="note-star">★</span></span></a><a href="#s40" class="n-song" data-lv="song" data-chars="esmeralda,frederic,frollo,phoebus"><span class="pg">39</span><span class="nav-label">♪ #23 — The Assault<span class="note-star">★</span></span></a><a href="#s41" class="n-song" data-lv="song" data-chars="esmeralda,phoebus"><span class="pg">40</span><span class="nav-label">♪ #24 — Someday<span class="note-star">★</span></span></a><a href="#s42" class="n-scene" data-lv="scene" data-chars=""><span class="pg">41</span><span class="nav-label">PALLMYND 5.2: KLOKKUTORNIÐ<span class="note-star">★</span></span></a><a href="#s43" class="n-song" data-lv="song" data-chars="gosgrýlur,meinigheit/kór,quasimodo,standmyndir"><span class="pg">42</span><span class="nav-label">♪ #24A — While the City Slumbered<span class="note-star">★</span></span></a><a href="#s44" class="n-song" data-lv="song" data-chars="gosgrýlur,quasimodo,standmyndir"><span class="pg">43</span><span class="nav-label">♪ #25 — Made of Stone<span class="note-star">★</span></span></a><a href="#s45" class="n-scene" data-lv="scene" data-chars=""><span class="pg">44</span><span class="nav-label">PALLMYND 6.2: BÝARTORGIÐ / NOTRE DAME<span class="note-star">★</span></span></a><a href="#s46" class="n-song" data-lv="song" data-chars="frollo,meinigheit/kór"><span class="pg">45</span><span class="nav-label">♪ #25A — Judex Crederis<span class="note-star">★</span></span></a><a href="#s47" class="n-song" data-lv="song" data-chars="clopin,frederic,frollo,gosgrýlur,hermenn,meinigheit/kór,phoebus,quasimodo,standmyndir"><span class="pg">46</span><span class="nav-label">♪ #25B — Kyrie Eleison Company<span class="note-star">★</span></span></a><a href="#s48" class="n-scene" data-lv="scene" data-chars=""><span class="pg">47</span><span class="nav-label">PALLMYND 7.2: KLOKKUTORN<span class="note-star">★</span></span></a><a href="#s49" class="n-song" data-lv="song" data-chars="esmeralda,frollo,quasimodo"><span class="pg">48</span><span class="nav-label">♪ #25C — Top of the World (Reprise)<span class="note-star">★</span></span></a><a href="#s50" class="n-song" data-lv="song" data-chars="frollo,gosgrýlur,meinigheit/kór,quasimodo,standmyndir"><span class="pg">49</span><span class="nav-label">♪ #25D — Esmeralda (Frollo Reprise)<span class="note-star">★</span></span></a><a href="#s51" class="n-song" data-lv="song" data-chars="clopin,florika,meinigheit/kór,phoebus,quasimodo"><span class="pg">50</span><span class="nav-label">♪ #26 — Finale Ultimo<span class="note-star">★</span></span></a></div>
 </nav>
 
 <main class="main" style="display:none">
     
-    <section id="s0" class="ms part-s" data-chars=""><span class="pn">s. 1</span><h2 class="sh">FYRRI PARTUR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h2><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">PARTUR EITT</span></p>
-<div class="bl"></div></div></section><section id="s1" class="ms scene-s" data-chars=""><span class="pn">s. 2</span><h3 class="sh">PROLÓGUR: TÓMUR PALLUR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">PROLOGUR: TÓMUR PALLUR</span></p>
+    <section id="s0" class="ms part-s" data-chars=""><span class="pn">s. 1</span><h2 class="sh">FYRRI PARTUR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h2><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">PARTUR EITT</span></p>
+<div class="bl"></div></div></section><section id="s1" class="ms scene-s" data-chars=""><span class="pn">s. 2</span><h3 class="sh">PROLÓGUR: TÓMUR PALLUR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">PROLOGUR: TÓMUR PALLUR</span></p>
 <div class="bl"></div></div></section><section id="s2" class="ms song-s" data-chars="meinigheit/kór"><span class="pn">s. 3</span><h4 class="sh"><span class="sh-txt">♪ #1 — Olim</span><div class="media-row" data-song="1">
             
             <a href="#" class="ml ml-mp3" data-song="1" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="1" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#1---Olim</i> MEINIGHEIT, KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#1---Olim</i> MEINIGHEIT, KÓR</span></p>
 <div class="bl"></div>
 <p>*(Klokkur ringja. MEINIGHEITIN (frásøgufólkini) koma saman og fara undir</p>
 <p>at syngja ein sálm á latíni.)*</p>
@@ -299,7 +305,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="2" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="2" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#2---The Bells of Notre Dame (Part 1)</i> MEINIGHEIT, KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#2---The Bells of Notre Dame (Part 1)</i> MEINIGHEIT, KÓR</span></p>
 <div class="bl"></div>
 <p><span class="ch">(MEINIGHEITIN, KÓR)</span></p>
 <div class="bl"></div>
@@ -415,7 +421,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="2E" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="2E" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#2E---The Bells of Notre Dame (Part 6)</i> MEINIGHEIT, KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#2E---The Bells of Notre Dame (Part 6)</i> MEINIGHEIT, KÓR</span></p>
 <div class="bl"></div>
 <p><span class="ch">MEINIGHEITSLIMIR</span></p>
 <div class="bl"></div>
@@ -472,7 +478,7 @@ h2.sh {
 <p>AH AH AH AH AH AH</p>
 <div class="bl"></div>
 <p>AH AH AH AH AH AH</p>
-<div class="bl"></div></div></section><section id="s5" class="ms scene-s" data-chars="frollo,gosgrýlur,meinigheit/kór,quasimodo,standmyndir"><span class="pn">s. 6</span><h3 class="sh">PALLMYND 1.1: KLOKKUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">PALLMYND EITT: KLOKKUTORNIÐ</span></p>
+<div class="bl"></div></div></section><section id="s5" class="ms scene-s" data-chars="frollo,gosgrýlur,meinigheit/kór,quasimodo,standmyndir"><span class="pn">s. 6</span><h3 class="sh">PALLMYND 1.1: KLOKKUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">PALLMYND EITT: KLOKKUTORNIÐ</span></p>
 <div class="bl"></div>
 <p><span class="ch">MEINIGHEITSLIMIR</span> '</p>
 <div class="bl"></div>
@@ -726,7 +732,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="4" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="4" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><b><i>#4 -- Out There QUASIMODO</i></b></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><b><i>#4 -- Out There QUASIMODO</i></b></p>
 <div class="bl"></div>
 <p><span class="ch">QUASIMODO</span> Mítt friðskjól....</p>
 <div class="bl"></div>
@@ -778,7 +784,7 @@ h2.sh {
 <p>SIGI TAKK</p>
 <p>SÁLIN GLAÐ</p>
 <p>VAR EG ÚTI BERT EIN DAG</p>
-<div class="bl"></div></div></section><section id="s7" class="ms scene-s" data-chars=""><span class="pn">s. 8</span><h3 class="sh">PALLMYND 2.1: BÝARTORGIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">PALLMYND TVEY: BÝARTORGIÐ</span></p>
+<div class="bl"></div></div></section><section id="s7" class="ms scene-s" data-chars=""><span class="pn">s. 8</span><h3 class="sh">PALLMYND 2.1: BÝARTORGIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">PALLMYND TVEY: BÝARTORGIÐ</span></p>
 <div class="bl"></div>
 <p>*(QUASIMODO stendur við hurðina av Notre Dame... so traðkar hann útum.</p>
 <p>MEINIGHEITIN kemur inn og blívur til eitt kór av DRYKKJUBRØÐRUM -- saman</p>
@@ -788,7 +794,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="5" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="5" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#5---Topsy Turvy (Part 1)</i> CLOPIN, QUASIMODO, DRYKKJUBRØÐUR, KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#5---Topsy Turvy (Part 1)</i> CLOPIN, QUASIMODO, DRYKKJUBRØÐUR, KÓR</span></p>
 <div class="bl"></div>
 <p><span class="ch">FJØLD, KÓR:</span></p>
 <p>KOM NÚ, KOM HER!</p>
@@ -909,7 +915,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="6" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="6" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><i>*</i>#6 -- Rest and Recreation* PHOEBUS, FROLLO, CLOPIN, HERMENN,</p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><i>*</i>#6 -- Rest and Recreation* PHOEBUS, FROLLO, CLOPIN, HERMENN,</p>
 <p>DRYKKJUBRØÐUR, KÓR**</p>
 <div class="bl"></div>
 <p><span class="ch">(PHOEBUS)</span></p>
@@ -1083,7 +1089,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="7" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="7" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><i>*</i>#7---Rhythm of the Tambourine* ESMERALDA, PHOEBUS, FROLLO, QUASIMODO,</p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><i>*</i>#7---Rhythm of the Tambourine* ESMERALDA, PHOEBUS, FROLLO, QUASIMODO,</p>
 <p>CLOPIN**</p>
 <div class="bl"></div>
 <p><span class="ch">ESMERALDA</span></p>
@@ -1169,7 +1175,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="8" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="8" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#8 Topsy Turvy (Part 2)</i> CLOPIN, ESMERALDA, DRYKKJUBRØÐUR, KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#8 Topsy Turvy (Part 2)</i> CLOPIN, ESMERALDA, DRYKKJUBRØÐUR, KÓR</span></p>
 <div class="bl"></div>
 <p><span class="ch">CLOPIN</span></p>
 <p>Og nú, mínar damur og harrar<span class="ch">,</span> kemur okkara høvuðsnummar:</p>
@@ -1332,7 +1338,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="8A" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="8A" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><b><i>#8A---The Harrowing</i></b></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><b><i>#8A---The Harrowing</i></b></p>
 <div class="bl"></div>
 <p>*(DRYKKJUBRÓÐIRIN blakar eina tomat eftir QUASIMODO<s>,</s> og rakar hann</p>
 <p>beint í andlitið. FJØLDIN flennir.)*</p>
@@ -1485,7 +1491,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="9" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="9" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#9---Sanctuary II</i> FROLLO, QUASIMODO</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#9---Sanctuary II</i> FROLLO, QUASIMODO</span></p>
 <div class="bl"></div>
 <p>*(DRYKKJUBRØÐURNIR fara hvør til sítt og byrja at pakka niður. FROLLO</p>
 <p>hyggur eymt at QUASIMODO.)*</p>
@@ -1545,12 +1551,12 @@ h2.sh {
 <p>*FROLLO ber eyga við eitt turriklæði hjá ESMERALDU. Hann boyggir seg</p>
 <p>niður eftir tí og tekur tað upp. Eina litla løtu heldur hann tað tætt</p>
 <p>inn at andlitinum.)*</p>
-<div class="bl"></div></div></section><section id="s14" class="ms scene-s" data-chars=""><span class="pn">s. 15</span><h3 class="sh">PALLMYND 3.1: INNI Í KIRKJUNI <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND TRÝ: INNI Í KIRKJUNI</span></p>
+<div class="bl"></div></div></section><section id="s14" class="ms scene-s" data-chars=""><span class="pn">s. 15</span><h3 class="sh">PALLMYND 3.1: INNI Í KIRKJUNI <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND TRÝ: INNI Í KIRKJUNI</span></p>
 <div class="bl"></div></div></section><section id="s15" class="ms song-s" data-chars="esmeralda,frollo,meinigheit/kór"><span class="pn">s. 16</span><h4 class="sh"><span class="sh-txt">♪ #9A — Klokkurnar í Notre Dame (Reprise)</span><div class="media-row" data-song="9A">
             
             <a href="#" class="ml ml-mp3" data-song="9A" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="9A" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><i>*</i>#9A -- Klokkurnar í Notre Dame (Reprise)* ESMERALDA, CONGREGATION,</p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><i>*</i>#9A -- Klokkurnar í Notre Dame (Reprise)* ESMERALDA, CONGREGATION,</p>
 <p>KÓR**</p>
 <div class="bl"></div>
 <p><span class="ch">MEINIGHEITSLIMUR</span></p>
@@ -1670,7 +1676,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="10" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="10" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#10 -- God Help The Outcasts</i> ESMERALDA, MEINIGHEITSLIMIR, KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#10 -- God Help The Outcasts</i> ESMERALDA, MEINIGHEITSLIMIR, KÓR</span></p>
 <div class="bl"></div>
 <p><i>(MEINIGHEITSLIMIR</i> *koma inn og tendra ljós. Kórið hoyrist, meðan</p>
 <p>FROLLO<i> </i>sigur næstu reglurnar)*</p>
@@ -1859,7 +1865,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="11" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="11" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#11---Transition to the Bell Tower</i> STANDMYNDIR, GOSGRÝLIR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#11---Transition to the Bell Tower</i> STANDMYNDIR, GOSGRÝLIR</span></p>
 <div class="bl"></div>
 <p><span class="ch">PHOEBUS</span></p>
 <div class="bl"></div>
@@ -1880,7 +1886,7 @@ h2.sh {
 <p><i>(meðan hon rennur upp gjøgnum trappurnar í klokkutorninum)</i></p>
 <div class="bl"></div>
 <p>Halló? Ert tú haruppi?</p>
-<div class="bl"></div></div></section><section id="s18" class="ms scene-s" data-chars="esmeralda,gosgrýlur,quasimodo,standmyndir"><span class="pn">s. 19</span><h3 class="sh">PALLMYND 4.1: KIRKJUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND FÝRA: KIRKJUTORNIÐ</span></p>
+<div class="bl"></div></div></section><section id="s18" class="ms scene-s" data-chars="esmeralda,gosgrýlur,quasimodo,standmyndir"><span class="pn">s. 19</span><h3 class="sh">PALLMYND 4.1: KIRKJUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND FÝRA: KIRKJUTORNIÐ</span></p>
 <div class="bl"></div>
 <p><span class="ch"><i>(</span>QUASIMODO rennir upp í klokkutornið.)</i></p>
 <div class="bl"></div>
@@ -2222,7 +2228,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="12A" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="12A" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><b><i>#12A---How Dare You</i></b></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><b><i>#12A---How Dare You</i></b></p>
 <div class="bl"></div>
 <p><span class="ch">FROLLO</span></p>
 <div class="bl"></div>
@@ -2342,7 +2348,7 @@ h2.sh {
 <p>Góða nátt, harri.</p>
 <div class="bl"></div>
 <p><i>(FROLLO fer út. QUASIMODO hyggur út gjøgnum vindeyguni.)</i></p>
-<div class="bl"></div></div></section><section id="s22" class="ms scene-s" data-chars="clopin,esmeralda,frollo,meinigheit/kór,phoebus,sigoynarar"><span class="pn">s. 21</span><h3 class="sh">PALLMYND 5.1: VERTSHÚS <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND FIMM: VERTSHÚS</span></p>
+<div class="bl"></div></div></section><section id="s22" class="ms scene-s" data-chars="clopin,esmeralda,frollo,meinigheit/kór,phoebus,sigoynarar"><span class="pn">s. 21</span><h3 class="sh">PALLMYND 5.1: VERTSHÚS <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND FIMM: VERTSHÚS</span></p>
 <div class="bl"></div>
 <p><span class="ch">SIGOYNARAR, ESMERALDA, FROLLO</span></p>
 <div class="bl"></div>
@@ -2502,7 +2508,7 @@ h2.sh {
 <div class="bl"></div>
 <p>KOM HALT MEG HEITAN Í NÁTT, KOM HALT MEG HEITAN Í NÁTT, KOM HALT MEG</p>
 <p>HEITAN Í NÁTT, KOM HALT MEG HEITAN Í NÁTT <i>...</i></p>
-<div class="bl"></div></div></section><section id="s23" class="ms scene-s" data-chars="gosgrýlur,quasimodo,standmyndir"><span class="pn">s. 22</span><h3 class="sh">PALLMYND 6.1: KLOKKUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><b><i>LEIKMYND SEKS: KLOKKUTORNIÐ</i></b></p>
+<div class="bl"></div></div></section><section id="s23" class="ms scene-s" data-chars="gosgrýlur,quasimodo,standmyndir"><span class="pn">s. 22</span><h3 class="sh">PALLMYND 6.1: KLOKKUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><b><i>LEIKMYND SEKS: KLOKKUTORNIÐ</i></b></p>
 <div class="bl"></div>
 <p>*(Klokkur ringja.) QUASIMODO hyggur út yvir París, meðan STANDMYNDIRNAR</p>
 <p>og GOSGRÝLURNAR eygleiða hann.)*</p>
@@ -2542,7 +2548,7 @@ h2.sh {
             <a href="https://genius.com/Alan-menken-Alan-menken-heavens-light-lyrics" target="_blank" class="gl" title="Genius">↗</a>
             <a href="#" class="ml ml-mp3" data-song="14" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="14" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#14---Heaven's Light</i> QUASIMODO</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#14---Heaven's Light</i> QUASIMODO</span></p>
 <div class="bl"></div>
 <p><span class="ch">GOSGRÝLA</span></p>
 <div class="bl"></div>
@@ -2594,14 +2600,14 @@ h2.sh {
 <p><u>EING</u>LA<u>BRÁ</u></p>
 <p><u>TAÐ [ER</u> SUM <u>HIMM</u>ALS <u>LJÓS</u> AT</p>
 <p><u>SJÁ</u></p>
-<div class="bl"></div></div></section><section id="s25" class="ms scene-s" data-chars=""><span class="pn">s. 24</span><h3 class="sh">PALLMYND 7.1: BØNARSTÓLAR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND SJEY; BØNARSTÓLAR</span></p>
+<div class="bl"></div></div></section><section id="s25" class="ms scene-s" data-chars=""><span class="pn">s. 24</span><h3 class="sh">PALLMYND 7.1: BØNARSTÓLAR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND SJEY; BØNARSTÓLAR</span></p>
 <div class="bl"></div>
 <p><i>(PRESTAR koma inn í katedralin til kvøldarmessuna.)</i></p>
 <div class="bl"></div></div></section><section id="s26" class="ms song-s" data-chars="frollo,meinigheit/kór,prestar"><span class="pn">s. 25</span><h4 class="sh"><span class="sh-txt">♪ #15 — Hellfire</span><div class="media-row" data-song="15">
             
             <a href="#" class="ml ml-mp3" data-song="15" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="15" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><b><i>#15---Hellfire FROLLO, PRESTAR, KÓR</i></b></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><b><i>#15---Hellfire FROLLO, PRESTAR, KÓR</i></b></p>
 <div class="bl"></div>
 <p><span class="ch">PRESTAR , MANSKÓR</span></p>
 <div class="bl"></div>
@@ -2668,12 +2674,12 @@ h2.sh {
 <p>VERBO ET OPERE<i>...</i></p>
 <div class="bl"></div>
 <div class="duet"><table><tr><td>FROLLO<br>TAÐ ER <u>EI</u> MÍN<br><u>SKYLD</u><br>Ó<u>SE</u>KUR<br><u>EG</u><br>NEI, <u>HEN</u>DAN<br>DA<br>NSAR<u>IN</u>DAN<br><u>HE</u><span class="ch">V</span>UR<br><u>GAND</u>AÐ<br><u>MEG</u>!<br>TAÐ ER <u>EI</u> MÍN<br><u>SKYLD</u><br>GUD <u>EIN</u>ANS<br><u>KANN</u><br>SKA<u>PA</u> EIN<br><u>DJE</u>VUL,<br><u>SO</u> NÓGV<br><u>STERK</u>AR'<br><u>ENN</u> EIN<br><u>MANN</u><br><u>HJÁLP</u> MÆR,<br>MA<u>RI</u>A!<br>LAT <u>IKK</u>I<br><u>FLAGD</u>IÐ<br><u>GAND</u>A<br><u>MEG</u>!<br>LAT <u>HENN</u>AR´<br><u>RÚ</u>NA<u>GLÓÐ</u><br>EI <u>SVÍ</u>ÐA<br><u>MEG</u>!<br><u>TÝN</u><br>ESME<u>RAL</u>DU!<br>OG <u>KANN</u> HON<br><u>IKK</u>I<br><u>VE</u><span class="ch">R</span>A<br><u>MÍN</u>,<br>SO <u>LAT</u> TÁ<br>HELJ<br>AR<u>DÝ</u><span class="ch">P</span>IÐ<br><u>OPN</u>A <u>SEG</u>!<br>TIL <u>HEL</u>JAR<br>Í <u>ELD</u>I<br>TÍTT <u>FLAGD</u>, VER<br><u>SKJÓT</u> OG<br><u>VEL</u>!<br>VEL <u>MEG</u> ELLA<br><u>BÁL</u>IÐ<br>VER <u>MÍN</u> ELLA<br><u>BRENN</u> Í<br><u>HEL</u>!<br><u>GUD</u> VERI<br><u>HENN</u>I<br><u>NÁÐ</u>IGUR![<br>GUD] VERI MÆR<br><u>NÁÐ</u>IGUR!<br>HON <u>VER</u>ÐUR<br><u>MÍN</u><span class="ch">,</span><br>ELLA <u>BRENN</u>UR HON Í<br><u>HEL</u>!</td><td><span class="ch">PRESTAR, KÓR (MENN)</span><br>MEA CULPA<br>MEA CULPA<br>MEA MAXIMA CULPA<br>MEA CULPA<br>MEA CULPA<br>MEA MAXIMA CULPA<br><b><i>PRESTAR, KÓR</i></b><br><i>AH</i><br><i>AH AH</i><br><i>AH AH AH</i><br><i>AH</i><br><i>AH AH</i><br><i>AH AH</i><br><i>KYRIE ELEISON</i><br><i>KYRIE ELEISON</i><br><i>KYRIE ELEISON</i><br><i>AH AH</i><br><i>AH AH</i><br><i>AH AH AH AH</i></td></tr></table></div>
-<div class="bl"></div></div></section><section id="s27" class="ms part-s" data-chars=""><span class="pn">s. 26</span><h2 class="sh">SEINNI PARTUR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h2><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">ANNAR PARTUR</span></p>
+<div class="bl"></div></div></section><section id="s27" class="ms part-s" data-chars=""><span class="pn">s. 26</span><h2 class="sh">SEINNI PARTUR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h2><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">ANNAR PARTUR</span></p>
 <div class="bl"></div></div></section><section id="s28" class="ms song-s" data-chars="meinigheit/kór"><span class="pn">s. 27</span><h4 class="sh"><span class="sh-txt">♪ #17 — Entr'acte</span><div class="media-row" data-song="17">
             <a href="https://genius.com/Alan-menken-Alan-menken-esmeralda-lyrics" target="_blank" class="gl" title="Genius">↗</a>
             <a href="#" class="ml ml-mp3" data-song="17" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="17" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><b><i>#17---Entr'acte KÓR</i></b></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><b><i>#17---Entr'acte KÓR</i></b></p>
 <div class="bl"></div>
 <p><span class="ch">MANSKÓR</span></p>
 <div class="bl"></div>
@@ -2736,7 +2742,7 @@ h2.sh {
 <p>VENIET OLIM MUTATIO</p>
 <div class="bl"></div>
 <p>AMEN</p>
-<div class="bl"></div></div></section><section id="s29" class="ms scene-s" data-chars="frederic,frollo,hermenn,meinigheit/kór,phoebus"><span class="pn">s. 28</span><h3 class="sh">PALLMYND 0.2: GØTUR Í PARÍS <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND NÝGGJU: GØTUR Í PARÍS /</span></p>
+<div class="bl"></div></div></section><section id="s29" class="ms scene-s" data-chars="frederic,frollo,hermenn,meinigheit/kór,phoebus"><span class="pn">s. 28</span><h3 class="sh">PALLMYND 0.2: GØTUR Í PARÍS <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND NÝGGJU: GØTUR Í PARÍS /</span></p>
 <div class="bl"></div>
 <p><span class="ch">UTTAN FYRI EITT BORDELL / KLOKKUTORN</span></p>
 <div class="bl"></div>
@@ -2911,7 +2917,7 @@ h2.sh {
             <a href="https://genius.com/Alan-menken-Alan-menken-esmeralda-lyrics" target="_blank" class="gl" title="Genius">↗</a>
             <a href="#" class="ml ml-mp3" data-song="16A" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="16A" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#16A---Esmeralda / Act I Finale (Part 2)</i> COMPANY</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#16A---Esmeralda / Act I Finale (Part 2)</i> COMPANY</span></p>
 <div class="bl"></div>
 <p><span class="ch">FROLLO</span></p>
 <div class="bl"></div>
@@ -3108,7 +3114,7 @@ h2.sh {
 <p><span class="ch">(KÓR)</span></p>
 <div class="bl"></div>
 <p>AH AH AH AH AH AH AH AH AH AH AH AH! <i>(Endi av fyrsta parti..)</i></p>
-<div class="bl"></div></div></section><section id="s31" class="ms scene-s" data-chars=""><span class="pn">s. 30</span><h3 class="sh">PALLMYND 1.2: KLOKKUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">PALLMYND 1: KLOKKUTORNIÐ</span></p>
+<div class="bl"></div></div></section><section id="s31" class="ms scene-s" data-chars=""><span class="pn">s. 30</span><h3 class="sh">PALLMYND 1.2: KLOKKUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">PALLMYND 1: KLOKKUTORNIÐ</span></p>
 <div class="bl"></div>
 <p>*(Ein standmynd er Sankta Aphrodisius. QUASIMODO stendur undir liðini á</p>
 <p>honum og hyggur oman á býartorgið.)*</p>
@@ -3116,7 +3122,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="17A" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="17A" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#17A -- Agnus Dei</i> KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#17A -- Agnus Dei</i> KÓR</span></p>
 <div class="bl"></div>
 <p><span class="ch">KÓR</span></p>
 <div class="bl"></div>
@@ -3333,7 +3339,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="18ª" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="18ª" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#18ª - Esmeralda Reprise</i> FROLLO, CONGREGATION</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#18ª - Esmeralda Reprise</i> FROLLO, CONGREGATION</span></p>
 <div class="bl"></div>
 <p><span class="ch">(FROLLO)</span> Segði hon nakað við teg, tá ið tú tosaði við hana? Fortaldi</p>
 <p>hon tær, hvar hon heldur til?</p>
@@ -3427,7 +3433,7 @@ h2.sh {
 <p>QUASIMODO</p>
 <div class="bl"></div>
 <p>Tú fært næstan ikki gingið!</p>
-<div class="bl"></div></div></section><section id="s34" class="ms scene-s" data-chars="meinigheit/kór"><span class="pn">s. 33</span><h3 class="sh">PALLMYND 2.2: GØTURNAR Í PARÍS <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND TVEY: GØTURNAR Í PARÍS</span></p>
+<div class="bl"></div></div></section><section id="s34" class="ms scene-s" data-chars="meinigheit/kór"><span class="pn">s. 33</span><h3 class="sh">PALLMYND 2.2: GØTURNAR Í PARÍS <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND TVEY: GØTURNAR Í PARÍS</span></p>
 <div class="bl"></div>
 <p><span class="ch">MEINIGHEITSLIMIR</span></p>
 <div class="bl"></div>
@@ -3445,7 +3451,7 @@ h2.sh {
             <a href="https://genius.com/Alan-menken-Alan-menken-the-court-of-miracles-lyrics" target="_blank" class="gl" title="Genius">↗</a>
             <a href="#" class="ml ml-mp3" data-song="20" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="20" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#20 Undrannargarður</i> CLOPIN, SIGOYNARAR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#20 Undrannargarður</i> CLOPIN, SIGOYNARAR</span></p>
 <div class="bl"></div>
 <p><span class="ch">PHOEBUS</span></p>
 <div class="bl"></div>
@@ -3492,7 +3498,7 @@ h2.sh {
 <p><i>(Til SIGOYNARARNAR)</i></p>
 <div class="bl"></div>
 <p>Fá teir innum.</p>
-<div class="bl"></div></div></section><section id="s36" class="ms scene-s" data-chars="clopin,esmeralda,phoebus,quasimodo,sigoynarar"><span class="pn">s. 35</span><h3 class="sh">PALLMYND 3.2: UNDRANNAGARÐUR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND TRÝ: UNDRANNAGARÐUR</span></p>
+<div class="bl"></div></div></section><section id="s36" class="ms scene-s" data-chars="clopin,esmeralda,phoebus,quasimodo,sigoynarar"><span class="pn">s. 35</span><h3 class="sh">PALLMYND 3.2: UNDRANNAGARÐUR <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND TRÝ: UNDRANNAGARÐUR</span></p>
 <div class="bl"></div>
 <p><i>(Eitt stórt høli undir jørð er fult av SIGOYNARUM.)</i></p>
 <div class="bl"></div>
@@ -3726,7 +3732,7 @@ h2.sh {
             <a href="https://genius.com/Alan-menken-Alan-menken-in-a-place-of-miracles-lyrics" target="_blank" class="gl" title="Genius">↗</a>
             <a href="#" class="ml ml-mp3" data-song="21" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="21" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><i>*</i>#21 In a Place of Miracles PHOEBUS, ESMERALDA, QUASIMODO, CLOPIN,</p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><i>*</i>#21 In a Place of Miracles PHOEBUS, ESMERALDA, QUASIMODO, CLOPIN,</p>
 <p>SIGOYNARAR, KÓR<i>*</i></p>
 <div class="bl"></div>
 <p><span class="ch">PHOEBUS</span></p>
@@ -3896,7 +3902,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="22" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="22" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#22---The Bells of Notre Dame (Reprise II)</i> CONGREGATION, KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#22---The Bells of Notre Dame (Reprise II)</i> CONGREGATION, KÓR</span></p>
 <div class="bl"></div>
 <p><span class="ch">(FROLLO)</span></p>
 <div class="bl"></div>
@@ -3906,7 +3912,7 @@ h2.sh {
 <p>sleppur út.</p>
 <div class="bl"></div>
 <p><i>(QUASIMODO verður førdur burtur.)</i></p>
-<div class="bl"></div></div></section><section id="s39" class="ms scene-s" data-chars="esmeralda,frollo,meinigheit/kór"><span class="pn">s. 38</span><h3 class="sh">PALLMYND 4.2: FONGLSIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND FÝRA: FONGLSIÐ</span></p>
+<div class="bl"></div></div></section><section id="s39" class="ms scene-s" data-chars="esmeralda,frollo,meinigheit/kór"><span class="pn">s. 38</span><h3 class="sh">PALLMYND 4.2: FONGLSIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND FÝRA: FONGLSIÐ</span></p>
 <div class="bl"></div>
 <p><span class="ch">MEINIGHEITSLIMIR</span></p>
 <div class="bl"></div>
@@ -3992,7 +3998,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="23" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="23" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><b><i>#23---The Assault FROLLO</i></b></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><b><i>#23---The Assault FROLLO</i></b></p>
 <div class="bl"></div>
 <p><span class="ch">(FROLLO)</span></p>
 <div class="bl"></div>
@@ -4174,7 +4180,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="24" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="24" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#24---Someday</i> ESMERALDA, PHOEBUS</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#24---Someday</i> ESMERALDA, PHOEBUS</span></p>
 <div class="bl"></div>
 <p><span class="ch">(ESMERALDA)</span></p>
 <div class="bl"></div>
@@ -4241,7 +4247,7 @@ h2.sh {
 <p>NÚ....</p>
 <div class="bl"></div>
 <p><i>(ESMERALDA og PHOEBUS mussast og leggja seg tætt saman fyri náttina.)</i></p>
-<div class="bl"></div></div></section><section id="s42" class="ms scene-s" data-chars=""><span class="pn">s. 41</span><h3 class="sh">PALLMYND 5.2: KLOKKUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND FIMM: KLOKKUTORNIÐ</span></p>
+<div class="bl"></div></div></section><section id="s42" class="ms scene-s" data-chars=""><span class="pn">s. 41</span><h3 class="sh">PALLMYND 5.2: KLOKKUTORNIÐ <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND FIMM: KLOKKUTORNIÐ</span></p>
 <div class="bl"></div>
 <p>*(QUASIMODO verður hildin fangi upp<span class="ch">i</span> í torninum og er bundin við</p>
 <p>einum tjúkkum reipi um økulin.)*</p>
@@ -4249,7 +4255,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="24A" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="24A" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#24A---While the City Slumbered</i> CONGREGATION, KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#24A---While the City Slumbered</i> CONGREGATION, KÓR</span></p>
 <div class="bl"></div>
 <p><span class="ch">KÓR</span> <i>KYRIE ELEISON...</i></p>
 <div class="bl"></div>
@@ -4295,7 +4301,7 @@ h2.sh {
             <a href="https://genius.com/Alan-menken-Alan-menken-made-of-stone-lyrics" target="_blank" class="gl" title="Genius">↗</a>
             <a href="#" class="ml ml-mp3" data-song="25" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="25" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#25---Made of Stone</i> QUASIMODO, STANDMYNDIR, GOSGRÝLUR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#25---Made of Stone</i> QUASIMODO, STANDMYNDIR, GOSGRÝLUR</span></p>
 <div class="bl"></div>
 <p><span class="ch">STANDMYNDIR & GOSGRÝLUR</span></p>
 <div class="bl"></div>
@@ -4424,12 +4430,12 @@ h2.sh {
 <p><u>SUM</u> UM <u>EG</u>[</p>
 <p>VAR <u>SJÁL</u>VUR</p>
 <p><u>GRÓT</u>!</p>
-<div class="bl"></div></div></section><section id="s45" class="ms scene-s" data-chars=""><span class="pn">s. 44</span><h3 class="sh">PALLMYND 6.2: BÝARTORGIÐ / NOTRE DAME <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND SEKS: BÝARTORGIÐ / NOTRE DAME</span></p>
+<div class="bl"></div></div></section><section id="s45" class="ms scene-s" data-chars=""><span class="pn">s. 44</span><h3 class="sh">PALLMYND 6.2: BÝARTORGIÐ / NOTRE DAME <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND SEKS: BÝARTORGIÐ / NOTRE DAME</span></p>
 <div class="bl"></div></div></section><section id="s46" class="ms song-s" data-chars="frollo,meinigheit/kór"><span class="pn">s. 45</span><h4 class="sh"><span class="sh-txt">♪ #25A — Judex Crederis</span><div class="media-row" data-song="25A">
             
             <a href="#" class="ml ml-mp3" data-song="25A" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="25A" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#25A---Judex Crederis</i> Kór</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#25A---Judex Crederis</i> Kór</span></p>
 <div class="bl"></div>
 <p>*(Har niðri á plássinum framman fyri Notre Dame er ESMERALDA bundin til</p>
 <p>ein træstólpa.*</p>
@@ -4462,7 +4468,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="25B" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="25B" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><b><i>#25B---Kyrie Eleison Company</i></b></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><b><i>#25B---Kyrie Eleison Company</i></b></p>
 <div class="bl"></div>
 <p><span class="ch">KÓR</span></p>
 <div class="bl"></div>
@@ -4688,12 +4694,12 @@ h2.sh {
 <div class="bl"></div>
 <p><span class="ch">STANDMYNDIR & GOSGRÝLUR, KÓR</span></p>
 <p>AH AH AH (X 4)</p>
-<div class="bl"></div></div></section><section id="s48" class="ms scene-s" data-chars=""><span class="pn">s. 47</span><h3 class="sh">PALLMYND 7.2: KLOKKUTORN <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch">LEIKMYND SJEY: KLOKKUTORN</span></p>
+<div class="bl"></div></div></section><section id="s48" class="ms scene-s" data-chars=""><span class="pn">s. 47</span><h3 class="sh">PALLMYND 7.2: KLOKKUTORN <span class="note-toggle" onclick="toggleNote(this)">📝</span></h3><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch">LEIKMYND SJEY: KLOKKUTORN</span></p>
 <div class="bl"></div></div></section><section id="s49" class="ms song-s" data-chars="esmeralda,frollo,quasimodo"><span class="pn">s. 48</span><h4 class="sh"><span class="sh-txt">♪ #25C — Top of the World (Reprise)</span><div class="media-row" data-song="25C">
             
             <a href="#" class="ml ml-mp3" data-song="25C" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="25C" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><span class="ch"><i>#25C---Top of the World (Reprise)</i> ESMERALDA, KÓR</span></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><span class="ch"><i>#25C---Top of the World (Reprise)</i> ESMERALDA, KÓR</span></p>
 <div class="bl"></div>
 <p>*(ESMERALDA liggur í einum króki. QUASIMODO fer tættari upp á hana og</p>
 <p>heldur um hana.)*</p>
@@ -4731,7 +4737,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="25D" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="25D" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><i>*</i>#25D---Esmeralda (Frollo Reprise)* FROLLO, JEHAN, FLORIKA,</p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><i>*</i>#25D---Esmeralda (Frollo Reprise)* FROLLO, JEHAN, FLORIKA,</p>
 <p>MEINIGHEIT, KÓR**</p>
 <div class="bl"></div>
 <p><span class="ch">FROLLO</span></p>
@@ -4824,7 +4830,7 @@ h2.sh {
             
             <a href="#" class="ml ml-mp3" data-song="26" style="display:none" title="Lurta">▶ MP3</a>
             <a href="#" class="ml ml-pdf" data-song="26" style="display:none" title="Nótar">♬ Nótar</a>
-        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriv nótur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Nóturnar verða goymd í tínum brovsara</div></div><div class="sb"><p><b><i>#26---Finale Ultimo COMPANY</i></b></p>
+        </div> <span class="note-toggle" onclick="toggleNote(this)">📝</span></h4><div class="note-area"><textarea placeholder="Skriva notur her…" oninput="saveNote(this)"></textarea><div class="note-hint">Noturnar verða bara goymdar í tínum kaga</div></div><div class="sb"><p><b><i>#26---Finale Ultimo COMPANY</i></b></p>
 <div class="bl"></div>
 <p><span class="ch">QUASIMODO</span></p>
 <div class="bl"></div>
@@ -5057,9 +5063,10 @@ function saveNote(textarea) {
             localStorage.removeItem('knd-note-' + sid);
         }
     } catch(e) {}
-    // Update toggle button style
     const btn = textarea.closest('.ms').querySelector('.note-toggle');
     if (btn) btn.classList.toggle('has-note', !!val);
+    const navLink = document.querySelector('.nv a[href="#' + sid + '"] .note-star');
+    if (navLink) navLink.classList.toggle('show', !!val);
 }
 
 // Load saved notes on page load
@@ -5075,6 +5082,8 @@ document.querySelectorAll('.ms').forEach(sec => {
                 const btn = sec.querySelector('.note-toggle');
                 if (btn) btn.classList.add('has-note');
             }
+            const star = document.querySelector('.nv a[href="#' + sid + '"] .note-star');
+            if (star) star.classList.add('show');
         }
     } catch(e) {}
 });
